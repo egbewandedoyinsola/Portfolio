@@ -9,5 +9,6 @@ My task was to make a website about myself using just HTML and CSS
 #### Contact me page
 <br>
 ![Screenshot (542)](https://user-images.githubusercontent.com/61497782/178967328-56421e5b-d6da-4c4f-880d-633d4658f859.png)
+
 <br>
-The log in and registration page is a work in progress
+The log in and registration page is  a work in progress
