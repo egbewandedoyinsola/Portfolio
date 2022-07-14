@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="registrationB">
+  <header>
+    
+  </header>
+
+
+  <main>
+    <nav class="navbar">
+      <ul class="ulnav">
+        <li class="linav"><a href="index.html"  class="anav">About Me</a></li>
+        <li class="linav"><a href="Contact page.html" class="anav">CONTACT</a></li>
+        <li class="linav"><a href="Login page.html" class="anav">LOG IN</a></li>
+        <li class="linav"><a href="Registration page.html" class="active" class="anav" >REGISTER</a></li>
+      </ul>
+    </nav>
+
+
+    
+<!--     registration form -->
+    <div class="container">
+      <h1 class="regiH">Registration</h1>
+      
+      <form action="#">
+        <div class="user-info">
+          <div class="input-box"> 
+            <span class="info">First Name</span>
+            <input type="text" name="name" class="textBox" placeholder="Type in your first name" required>
+          </div>
+          <div class="input-box"> 
+            <span class="info">Last Name</span>
+            <input type="text" name="name" class="textBox" placeholder="Type in your last name" required>
+          </div>
+          <div class="input-box"> 
+            <span class="info">Phone</span>
+            <input type="tel" name="phone" class="textBox" placeholder="Type in your phone number" required>
+          </div>
+          
+          <div class="input-box"> 
+            <span class="info">Country</span>
+            <input type="text" name="country" class="textBox" placeholder="Type in your country" required>
+          </div>
+          <div class="input-box"> 
+            <span class="info">Email</span>
+            <input type="email" name="email" class="textBox" placeholder="Type in your email" required>
+          </div>
+            <div class="input-box"> 
+            <span class="info">Password</span>
+            <input type="password" name="password" class="textBox" placeholder="Type in your password" required>
+          </div>
+           <div class="input-box"> 
+            <span class="info">confirm password</span>
+            <input type="text" name="name" class="textBox" placeholder="Confirm your password" required>
+           </div>
+            
+          <div class="input-box"> 
+            <label for="gender">Choose your gender</label>
+
+              <select name="genders" id="bgender">
+                <option value="Female">Female</option>
+                <option value="saab">Male</option>
+                <option value="mercedes">Prefer not to say</option>
+                
+              </select>
+          </div>
+          <div class="input-box"> 
+           <label for="province">Choose province of residence</label>
+                <select name="prov" id="caProvinces">
+                    <option value="AB">Alberta</option>
+                    <option value="BC">British Columbia</option>
+                    <option value="MB">Manitoba</option>
+                    <option value="NB">New Brunswick</option>
+                    <option value="NL">Newfoundland and Labrador</option>
+                    <option value="NS">Nova Scotia</option>
+                    <option value="ON">Ontario</option>
+                    <option value="PE">Prince Edward Island</option>
+                    <option value="QC">Quebec</option>
+                    <option value="SK">Saskatchewan</option>
+                    <option value="NT">Northwest Territories</option>
+                    <option value="NU">Nunavut</option>
+                    <option value="YT">Yukon</option>
+                </select>	
+        </div>
+
+        <div class="regCButton">
+            <input type="submit" name="submit" class="regBtn" value="Register">
+        </div>
+            
+          </div>
+          </div>
+        </div>
+        
+      </form>
+          
+                                              
+    </div>
+   
+        
+    </div> 
+<!--   end of registration page -->
+      
+  </main>
+
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
